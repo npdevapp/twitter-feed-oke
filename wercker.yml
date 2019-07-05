@@ -12,6 +12,7 @@ build:
     - script:
         name: maven build
         code: mvn clean assembly:assembly
+
 #Push the application image to OCIR
 push-release:
   steps:
